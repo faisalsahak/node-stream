@@ -223,6 +223,159 @@ app.get('/sportsnetworldchannel', function (req, res){
   res.render('Pages/sportChannels/sportsnet/sportsnetworldchannel.ejs')
 });
 
+//NBC SN Links
+app.get('/nbcsn', function (req, res){
+  res.render('Pages/sportChannels/nbcsn/nbcsn.ejs')
+});
+app.get('/nbcsnchannel', function (req, res){
+  res.render('Pages/sportChannels/nbcsn/nbcsnchannel.ejs')
+});
+
+//ESPN 1 Links
+app.get('/espn1', function (req, res){
+  res.render('Pages/sportChannels/espn/espn1.ejs')
+});
+app.get('/espn1channel', function (req, res){
+  res.render('Pages/sportChannels/espn/espn1channel1.ejs')
+});
+
+//ESPN 2 Links
+app.get('/espn2', function (req, res){
+  res.render('Pages/sportChannels/espn/espn2.ejs')
+});
+app.get('/espn2channel', function (req, res){
+  res.render('Pages/sportChannels/espn/espn2channel1.ejs')
+});
+
+
+//Fox Sport 1 Links
+app.get('/foxsport1', function (req, res){
+  res.render('Pages/sportChannels/foxsport/fox1.ejs')
+});
+app.get('/foxsportchannel1', function (req, res){
+  res.render('Pages/sportChannels/foxsport/fox1channel1.ejs')
+});
+
+//Fox Sport 2 Links
+app.get('/foxsport2', function (req, res){
+  res.render('Pages/sportChannels/foxsport/fox2.ejs')
+});
+app.get('/fox2channel', function (req, res){
+  res.render('Pages/sportChannels/foxsport/fox2channel1.ejs')
+});
+
+//TSN Channel Links
+app.get('/tsntv', function (req, res){
+  res.render('Pages/sportChannels/tsn/tsntv.ejs')
+});
+app.get('/tsnchannel', function (req, res){
+  res.render('Pages/sportChannels/tsn/tsnchannel.ejs')
+});
+
+//NFL Channel Links
+app.get('/nfltv', function (req, res){
+  res.render('Pages/sportChannels/nflnetwork/nfltv.ejs')
+});
+app.get('/nflchannel', function (req, res){
+  res.render('Pages/sportChannels/nflnetwork/nfltvchannel.ejs')
+});
+
+//NBA Channel Links
+app.get('/nbatv', function (req, res){
+  res.render('Pages/sportChannels/nbatv/nbatv.ejs')
+});
+app.get('/nbachannel', function (req, res){
+  res.render('Pages/sportChannels/nbatv/nbatvchannel.ejs')
+});
+
+//GOlf Channel Links
+app.get('/golftv', function (req, res){
+  res.render('Pages/sportChannels/golftv/golftv.ejs')
+});
+app.get('/golftvchannel', function (req, res){
+  res.render('Pages/sportChannels/golftv/golfchannel.ejs')
+});
+
+//At The Races Channel Links
+app.get('/attherace', function (req, res){
+  res.render('Pages/sportChannels/attheraces/attheraces.ejs')
+});
+app.get('/attheracechannel', function (req, res){
+  res.render('Pages/sportChannels/attheraces/attheraceschannel.ejs')
+});
+
+//Box Naion Links
+app.get('/boxnation', function (req, res){
+  res.render('Pages/sportChannels/boxnation/boxnation.ejs')
+});
+app.get('/boxnationchannel', function (req, res){
+  res.render('Pages/sportChannels/boxnation/boxnationchannel.ejs')
+});
+
+//Box Naion Links
+app.get('/ptv', function (req, res){
+  res.render('Pages/sportChannels/ptvsports/ptvsports.ejs')
+});
+app.get('/ptvchannel', function (req, res){
+  res.render('Pages/sportChannels/ptvsports/ptvsportschannel.ejs')
+});
+
+//Premier Sport Links
+app.get('/premiersport', function (req, res){
+  res.render('Pages/sportChannels/premiersports/premiersports.ejs')
+});
+app.get('/premiersportchannel', function (req, res){
+  res.render('Pages/sportChannels/premiersports/premiersportschannel.ejs')
+});
+
+//MUTV Links
+app.get('/mutv', function (req, res){
+  res.render('Pages/sportChannels/mutv/mutv.ejs')
+});
+app.get('/mutvchannel', function (req, res){
+  res.render('Pages/sportChannels/mutv/mutvchannel.ejs')
+});
+
+//Chelsea TV Links
+app.get('/chelseatv', function (req, res){
+  res.render('Pages/sportChannels/chelseatv/chelseatv.ejs')
+});
+app.get('/chelseatvchannel', function (req, res){
+  res.render('Pages/sportChannels/chelseatv/chelseachannel.ejs')
+});
+
+//Motors TV Links
+app.get('/motorstv', function (req, res){
+  res.render('Pages/sportChannels/motorstv/motorstv.ejs')
+});
+app.get('/motorstvchannel', function (req, res){
+  res.render('Pages/sportChannels/motorstv/motorschannel.ejs')
+});
+
+//Star Sports TV Links
+app.get('/starsport', function (req, res){
+  res.render('Pages/sportChannels/starsports/starsports.ejs')
+});
+app.get('/starsportchannel', function (req, res){
+  res.render('Pages/sportChannels/starsports/starsportschannel.ejs')
+});
+
+//BBC1 TV Links
+app.get('/bbc1', function (req, res){
+  res.render('Pages/sportChannels/bbctv/bbc1.ejs')
+});
+app.get('/bbcchannel1', function (req, res){
+  res.render('Pages/sportChannels/bbctv/bbc1channel1.ejs')
+});
+
+//BBC2 TV Links
+app.get('/bbc2', function (req, res){
+  res.render('Pages/sportChannels/bbctv/bbc2.ejs')
+});
+app.get('/bbc2channel', function (req, res){
+  res.render('Pages/sportChannels/bbctv/bbc2channel1.ejs')
+});
+
 app.listen(3000, function(){
   console.log("server running on port 3000")
 })

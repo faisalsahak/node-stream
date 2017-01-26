@@ -1,0 +1,43 @@
+
+  <body>
+    <% include ../../Navbar.ejs %>
+    <% include ../../Sidebar.ejs %>
+    <div class="middle-content">
+      <section class="wrapper">
+        <section class="pannel">
+          <div id="timezone" title="set clock to your time zone to change game times">
+            <span class="sprite-icons clock"></span>
+            <span style="color:#ffffff;font-weight: bold;">| Website Timezone: GMT +01:00 Europe/London |</span>
+            <span style="padding-right: 5px;"></span>
+          </div>
+            <div class="HomeTable">
+              <br>
+              <table>
+                <tbody>
+                  <tr>
+                    <td style="width:8px">#</td>
+                    <td style="width:12px">Geo</td>
+                    <td style="width:52px">Channel</td>
+                    <td>Website</td>
+                    <td>Kbps</td>
+                    <td>Watch</td>
+                    <td>Status</td>
+                  </tr>
+                  <tr>
+                    <td><span>1</span></td>
+                    <td><span class="flag usa"></span></td>
+                    <td class="channel-img"><a href="/espn1channel"><img src="../../../images/espn.png" /></a></td>
+                    <td>SportzStream</td>
+                    <td>500</td>
+                    <td><a href="/espn1channel"><input type="button" class= "btn btn-default" value= "Watch"></a></td>
+                    <td><span class="live">Live</span></td>
+                  </tr>
+                </tr>
+               </tbody>
+             </table>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
